@@ -1,0 +1,5 @@
+*.class      # Compiled Java bytecode files
+*.jar        # Java archive files
+.idea/       # IntelliJ IDEA project settings
+.vscode/     # VSCode project settings
+.DS_Store    # macOS system file
