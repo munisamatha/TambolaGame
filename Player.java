@@ -1,4 +1,4 @@
-public class Player {
+public abstract class Player {
     protected String name;
     protected Ticket ticket;
 
@@ -15,14 +15,10 @@ public class Player {
         return ticket;
     }
 
-    // By default, a player is human
-    public boolean isBot() {
-        return false;
-    }
-
     public void showTicket() {
-        System.out.println("\nTicket for " + name + ":");
-        ticket.display();
+        System.out.println("\n" + name + "'s Ticket:");
+        ticket.displayTicket();
     }
 }
+
 
